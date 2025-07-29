@@ -24,7 +24,7 @@ header {
     text-align: center;
 }
 
-section {
+.chamada {
     background-color:rgb(57, 144, 226);
     padding-top: 80px;
     padding-bottom: 80px;
@@ -40,4 +40,16 @@ section {
 img {
     width: 300px;
     height: 200px;
+}
+
+.outrasRecomendacoes {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.9%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+}
+
+h2 {
+    margin-left: 30px;
 }
